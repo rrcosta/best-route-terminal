@@ -1,3 +1,6 @@
+require_relative 'uteis/validacao'
+require_relative 'lib/csv'
+
 RSpec.configure do |config|
 
   config.expect_with :rspec do |expectations|
